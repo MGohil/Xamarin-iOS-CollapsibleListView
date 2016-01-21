@@ -10,6 +10,11 @@ namespace CollapsibleListView
 	{
 		// class-level declarations
 
+		public static Enums.DeviceType DeviceType = UIDevice.CurrentDevice.UserInterfaceIdiom == UIUserInterfaceIdiom.Phone ? Enums.DeviceType.IPHONE : Enums.DeviceType.IPAD;
+		public static double DeviceWidth = UIScreen.MainScreen.Bounds.Width * 2;
+		public static double DeviceHeight = UIScreen.MainScreen.Bounds.Height * 2;
+
+
 		public override UIWindow Window {
 			get;
 			set;

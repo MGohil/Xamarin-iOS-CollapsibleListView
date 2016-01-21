@@ -4,8 +4,10 @@ namespace CollapsibleListView
 {
 	public class Enums
 	{
-		public Enums ()
+		public enum DeviceType
 		{
+			IPHONE = 0,
+			IPAD = 1
 		}
 	}
 }

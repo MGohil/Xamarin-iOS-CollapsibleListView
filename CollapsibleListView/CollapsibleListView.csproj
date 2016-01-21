@@ -98,6 +98,28 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListView\CollapsibleListView.cs" />
+    <Compile Include="ListView\CollapsibleListViewCell.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="ListView\ListItem.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="ListView\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\.DS_Store" />
+    <BundleResource Include="Resources\arrow_down.png" />
+    <BundleResource Include="Resources\arrow_down%402x.png" />
+    <BundleResource Include="Resources\arrow_down%403x.png" />
+    <BundleResource Include="Resources\arrow_up.png" />
+    <BundleResource Include="Resources\arrow_up%402x.png" />
+    <BundleResource Include="Resources\arrow_up%403x.png" />
+    <BundleResource Include="Resources\switch_off.png" />
+    <BundleResource Include="Resources\switch_off%402x.png" />
+    <BundleResource Include="Resources\switch_off%403x.png" />
+    <BundleResource Include="Resources\switch_on.png" />
+    <BundleResource Include="Resources\switch_on%402x.png" />
+    <BundleResource Include="Resources\switch_on%403x.png" />
+  </ItemGroup>
 </Project>
