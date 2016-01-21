@@ -108,7 +108,6 @@
     <Folder Include="ListView\" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\.DS_Store" />
     <BundleResource Include="Resources\arrow_down.png" />
     <BundleResource Include="Resources\arrow_down%402x.png" />
     <BundleResource Include="Resources\arrow_down%403x.png" />
