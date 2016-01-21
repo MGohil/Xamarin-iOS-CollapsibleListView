@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollapsibleListView", "CollapsibleListView\CollapsibleListView.csproj", "{7737F89A-55A2-4C51-A0FC-A241235FF592}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7737F89A-55A2-4C51-A0FC-A241235FF592}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{7737F89A-55A2-4C51-A0FC-A241235FF592}.Debug|iPhone.Build.0 = Debug|iPhone
+		{7737F89A-55A2-4C51-A0FC-A241235FF592}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{7737F89A-55A2-4C51-A0FC-A241235FF592}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{7737F89A-55A2-4C51-A0FC-A241235FF592}.Release|iPhone.ActiveCfg = Release|iPhone
+		{7737F89A-55A2-4C51-A0FC-A241235FF592}.Release|iPhone.Build.0 = Release|iPhone
+		{7737F89A-55A2-4C51-A0FC-A241235FF592}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{7737F89A-55A2-4C51-A0FC-A241235FF592}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
